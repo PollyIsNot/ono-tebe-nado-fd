@@ -17,7 +17,7 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  width: 100%;
   align-items: flex-end;
   text-align: left;
 }
@@ -96,10 +96,6 @@
   z-index: 2;
   width: 100%;
   transform: translateY(-12px) translateX(2px);
-}
-
-.header .address {
-  width: 100%;
 }
 
 .header .logo-holder-wrapper .logo-holder {
@@ -366,7 +362,6 @@ main .about .text .paragraphs {
   justify-content: space-between;
   padding-bottom: 87px;
   gap: 48px;
-  justify-content: space-between;
   padding-left: 50px;
   padding-right: 50px;
   font-size: 18px;
@@ -400,7 +395,6 @@ main .about .text .paragraphs {
   font-style: normal;
   display: flex;
   flex-direction: column;
-  max-width: 100%;
   text-align: left;
   max-width: 240px;
   gap: 4px;
